@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories("vendor/")
 
-add_executable("Earraper.exe" "src/Earraper.cpp")
+add_executable("Earraper" "src/Earraper.cpp")
