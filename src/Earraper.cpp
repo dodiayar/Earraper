@@ -12,7 +12,6 @@ void data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uin
 {
     MA_ASSERT(pDevice->capture.format == pDevice->playback.format);
     MA_ASSERT(pDevice->capture.channels == pDevice->playback.channels);
-    /* In this example the format and channel count are the same for both input and output which means we can just memcpy(). */
     float* outputBuffer = static_cast<float*>(pOutput);
     const float* firstFrame = static_cast<const float*>(pInput);
     for (int i = 0; i < frameCount * 2; i++) {
@@ -32,10 +31,8 @@ int main(int argc, char** argv) {
     ma_context_init(NULL, 0, NULL, &context);
     ma_device_config deviceConfig;
     ma_device device;
-    ma_device_info* pPlaybackInfos;
-    ma_uint32 playbackCount;
-    ma_device_info* pCaptureInfos;
-    ma_uint32 captureCount;
+    ma_device_info* pPlaybackInfos, *pCaptureInfos;
+    ma_uint32 playbackCount, captureCount;
     ma_context_get_devices(&context, &pPlaybackInfos, &playbackCount, &pCaptureInfos, &captureCount);
 
     deviceConfig = ma_device_config_init(ma_device_type_duplex);
