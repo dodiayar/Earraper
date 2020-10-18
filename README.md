@@ -12,7 +12,7 @@ You can simply run the binary file and press Enter to boost your microphone. Pre
 
  - **boost:** The boost level
  - **playback**: The playback device
- - **recoring**: The recording device
+ - **recording**: The recording device
 
 For example you can run the app like this:
 
