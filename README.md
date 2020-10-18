@@ -1,4 +1,7 @@
 # Earraper
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d591adf2e81416a8d17ffffd653a159)](https://app.codacy.com/gh/dodiayar/Earraper?utm_source=github.com&utm_medium=referral&utm_content=dodiayar/Earraper&utm_campaign=Badge_Grade)
+
 ![CMake](https://github.com/dodiayar/Earraper/workflows/CMake/badge.svg)
 
 This app simply boosts your microphone so it sounds like earrape. You might want to use a software like Virtual Audio Cable to send the output to an input device.
