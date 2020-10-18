@@ -1,5 +1,6 @@
 
 # Earraper
+![CMake](https://github.com/dodiayar/Earraper/workflows/CMake/badge.svg)
 
 This app simply boosts your microphone so it sounds like earrape. You might want to use a software like Virtual Audio Cable to send the output to an input device.
 
