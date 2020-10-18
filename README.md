@@ -20,4 +20,4 @@ For example you can run the app like this:
 
 ## Dependencies
 
-This projects depends on [Miniaudio](https://github.com/mackron/miniaudio), [Rang](https://github.com/agauniyal/rang) and [Flags](https://github.com/sailormoon/flags) libraries.
+This project depends on [Miniaudio](https://github.com/mackron/miniaudio), [Rang](https://github.com/agauniyal/rang) and [Flags](https://github.com/sailormoon/flags) libraries.
