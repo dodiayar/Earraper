@@ -10,9 +10,9 @@ You can find the downloads in the [Release](https://github.com/dodiayar/Earraper
 ## Usage
 You can simply run the binary file and press Enter to boost your microphone. Pressing Enter again will stop boosting your microphone. There are also some options you can change:
 
- - **boost:** The boost level
- - **playback**: The playback device
- - **recording**: The recording device
+- **boost:** The boost level
+- **playback**: The playback device
+- **recording**: The recording device
 
 For example you can run the app like this:
 
